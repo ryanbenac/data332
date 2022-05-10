@@ -14,11 +14,34 @@ In order for the data to be analyzed and produce meaningful data, it must be cle
 
 ## Statistics About Data
 
-Statistics chart
+![Stats about data](Visualizations/proportion_stats.jpg)
 
 The above statistics show the min, average, and max for the three analyzed columns. This is important because it shows (roughly) the distribution of proportions. See below for a visual representation.
 
-## Visualizations and Analysis
+## Distribution
+This needs a writeup
 
+![Labeled Butterfly Chart](Visualizations/box_by_gender.jpg)
+
+This needs a writeup
+
+![Labeled Butterfly Chart](Visualizations/hist_wingspanjpg)
+
+This needs a writeup
+
+## Visualizations and Analysis
+This needs a writeup
+
+![Labeled Butterfly Chart](Visualizations/all_wingspan_overtime.jpg)
+
+This needs a writeup
+
+![Labeled Butterfly Chart](Visualizations/gender_over_time.jpg)
+
+This needs a writeup
+
+## T-test
+T test information
 
 ## Summary
+Summary of results and implications. Reccommendations for future use

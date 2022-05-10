@@ -21,22 +21,22 @@ The above statistics show the min, average, and max for the three analyzed colum
 ## Distribution
 This needs a writeup
 
-![Labeled Butterfly Chart](Visualizations/box_by_gender.jpg)
+![Boxplot by gender](Visualizations/box_by_gender.jpg)
 
 This needs a writeup
 
-![Labeled Butterfly Chart](Visualizations/hist_wingspanjpg)
+![Wingspan distribution](Visualizations/hist_wingspan.jpg)
 
 This needs a writeup
 
 ## Visualizations and Analysis
 This needs a writeup
 
-![Labeled Butterfly Chart](Visualizations/all_wingspan_overtime.jpg)
+![Wingspan evolution over time](Visualizations/all_wingspan_overtime.jpg)
 
 This needs a writeup
 
-![Labeled Butterfly Chart](Visualizations/gender_over_time.jpg)
+![Wingspan evolution by gender over time](Visualizations/gender_over_time.jpg)
 
 This needs a writeup
 

@@ -27,7 +27,7 @@ This needs a writeup
 
 ![Wingspan distribution](Visualizations/hist_wingspan.jpg)
 
-This needs a writeup
+This needs a writeup.
 
 ## Visualizations and Analysis
 This needs a writeup

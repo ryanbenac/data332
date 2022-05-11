@@ -38,16 +38,23 @@ Below is a visualization of wingspan evolution over time from 1821 to 2017.
 
 ![Wingspan evolution over time](Visualizations/all_wingspan_overtime.jpg)
 
-The first noticable feature of this graph is a drastic decrease in wingspan in the late 1950s. On further investigation, there is only a single record during the year 1958, which skews the data to appear that there was a drop in wingspan during that time. On the contrary, the data as a whole generally follows an upward trend in increasing wing span over time from past to presest. It is likely that this trend will continue. 
+The first noticable feature of this graph is a drastic decrease in wingspan in the late 1950s. On further investigation, there is only a single record during the year 1958, which skews the data to appear that there was a drop in wingspan during that time. On the contrary, the data as a whole generally follows an upward trend in increasing wing span over time from past to presest. It is likely that this trend will continue in the future. 
+
+Below shows a breakdown of wingspan over time by gender from 1821 to 2016. 
 
 ![Wingspan evolution by gender over time](Visualizations/gender_over_time.jpg)
 
-This needs a writeup
+Interestingly, by breaking down wingspan evolution over time by the sex of the specimen, it tells an interesting story. The wingspans do not always vary at the same time. For example, between 1889 and 1924, the genders appear to be almost opposite of the other at any given time. It is not until the mid 19th century that they begin to change at a similar pace. Arguably, each line does seem to trend upwards, however not consistent with the other sex. 
 
-Also include about apex spot over time. look up information about it. New visualization!
+The graph below highlighs information about the apex of each specimen.
+
+![Apex visualization](Visualizations/apex_over_time.jpg)
+
+Initial assumtions were that the apex on each wing would be similar. Over time, the variation in the size of the apex patch, regardless of wing it is on was nearly identical. However, the average of the left apex patch was consitently larger than that of the right. Interestingly, the left patch is 10-15mm larger than that of its right counterpart. Perhaps this has something to do with mating patterns or other evolutionary events. 
+
 
 ## T-test
 Our T-test analysis was done in R with the packages.... We chose to examine the....
 
 ## Summary
-Summary of results and implications. Reccommendations for future use
+Summary of results and implications. Reccommendations for future use. Document and explain Failures during this project.

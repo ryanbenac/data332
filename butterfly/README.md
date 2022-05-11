@@ -12,36 +12,42 @@ In order for the data to be analyzed and produce meaningful data, it must be cle
 2. N/A values of any numerical proportion column changed to 0
 3. Ensured all values in YearUpdated were in a consistent year format
 
+We also elected to only use the raw data, and not the smaller "cleaned" data set. 
+
 ## Statistics About Data
 
 ![Stats about data](Visualizations/proportion_stats.jpg)
 
-The above statistics show the min, average, and max for the three analyzed columns. This is important because it shows (roughly) the distribution of proportions. See below for a visual representation.
+The above statistics show the min, average, and max for the three analyzed columns. This is important because it shows the distribution of proportions. Note. See below for a visual representation. Just by looking at this graph, we can see that each wing is roughly the same size. However, the right wing, on average, is slightly larger than the left. 
 
 ## Distribution
-This needs a writeup
+Below is a visual representation of proportion size by gender of both the right and left wings. 
 
 ![Boxplot by gender](Visualizations/box_by_gender.jpg)
 
-This needs a writeup
+By looking at this visual, it can be immediately seen that on average, wing proportions are similar regardless of gender. Insterestingly however, for males, the box and whiskers (containing almost all of the data) is slightly larger, as well as the max value. This implies that males have a slight variation in wing size either smaller, or larger.
+
+Below shows the distribution or wing span for both sexes. Wingspan is calculated as the width of the right wing plus the width of the left. 
 
 ![Wingspan distribution](Visualizations/hist_wingspan.jpg)
 
-This needs a writeup.
+This chart highlights that the wingspan of the Pieres rapae species of butterfly is roughly normally distributed around the mean (about 13). It also highlights several possible outliers/incorrect data in the bin that includes 0. Our data cleaning involved changing empty data to zeros, so that bin serves as a way to visualize how much data was missing. Looking back at the distribution of wingspan, we can see that on average, a wingspan is relatively predictable and will fall within the middle range of this distribution. 
 
 ## Visualizations and Analysis
-This needs a writeup
+Below is a visualization of wingspan evolution over time from 1821 to 2017. 
 
 ![Wingspan evolution over time](Visualizations/all_wingspan_overtime.jpg)
 
-This needs a writeup
+The first noticable feature of this graph is a drastic decrease in wingspan in the late 1950s. On further investigation, there is only a single record during the year 1958, which skews the data to appear that there was a drop in wingspan during that time. On the contrary, the data as a whole generally follows an upward trend in increasing wing span over time from past to presest. It is likely that this trend will continue. 
 
 ![Wingspan evolution by gender over time](Visualizations/gender_over_time.jpg)
 
 This needs a writeup
 
+Also include about apex spot over time. look up information about it. New visualization!
+
 ## T-test
-T test information
+Our T-test analysis was done in R with the packages.... We chose to examine the....
 
 ## Summary
 Summary of results and implications. Reccommendations for future use

@@ -54,7 +54,21 @@ Initial assumtions were that the apex on each wing would be similar. Over time, 
 
 
 ## T-test
-Our T-test analysis was done in R with the packages.... We chose to examine the....
+Our T-test analysis was done in R to determine if there was a significant difference between the means of two groups. We did a t test on right nd left wing length and also right and left wing width. The results are below: 
+
+RWingLength and LWingLength T-Test Results: 
+T-stat: 100.45
+P-value: 2.2e-16
+Confidence Interval: [10.03957, 10.43972]
+Mean of differences: 10.23964
+
+RWingWidth and LWingWidth T-Test Results: 
+T-stat: 112.77
+P-value: 2.2e-16
+Confidence Interval: [9.978191, 10.331461]
+Mean of differences: 10.15482
+
+The p-value of the wing length test, 2.2e-16 is less than the significance level alpha (0.05), which allows us to conclude that the right with legnth average is significantly different from the left wing length. The T-test for wing width shows an identical p-value which allows us to reach the same conclusion of the wing length results. 
 
 ## Summary
-Summary of results and implications. Reccommendations for future use. Document and explain Failures during this project.
+This analysis focused primarily on wing proportions over time both by gender and as an entire sample population. The general trend of the data showed increase in win glength, width, and apex spot size over time. In doing this project, we ran into many issues and dealt with a variety of miscalculations and failures. During exploratory data analysis, we found many anomolies and outlier that needed to be fixed ranging from sample size of a year being to small to having inconsistent naming ocnventions for the sex of each sample. For future use, this analysis can be duplicated or added onto new data sets which will likely show a further increase in wing proportions over time. Further, better data collection methods should be put in place to allow better analysis of the provided data. 

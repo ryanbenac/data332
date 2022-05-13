@@ -57,16 +57,16 @@ Initial assumtions were that the apex on each wing would be similar. Over time, 
 Our T-test analysis was done in R to determine if there was a significant difference between the means of two groups. We performed a t-test on the right and left wing length as well as the right and left wing width. The results are below: 
 
 RWingLength and LWingLength T-Test Results: 
-T-stat: 100.45
-P-value: 2.2e-16
-Confidence Interval: [10.03957, 10.43972]
-Mean of differences: 10.23964
+T-stat: 100.45 <br>
+P-value: 2.2e-16<br>
+Confidence Interval: [10.03957, 10.43972]<br>
+Mean of differences: 10.23964<br>
 
 RWingWidth and LWingWidth T-Test Results: 
-T-stat: 112.77
-P-value: 2.2e-16
-Confidence Interval: [9.978191, 10.331461]
-Mean of differences: 10.15482
+T-stat: 112.77<br>
+P-value: 2.2e-16<br>
+Confidence Interval: [9.978191, 10.331461]<br>
+Mean of differences: 10.15482<br>
 
 The p-value of the wing length test, 2.2e-16 is less than the significance level alpha (0.05), which allows us to conclude that the right with legnth average is significantly different from the left wing length. The T-test for wing width shows an identical p-value which allows us to reach the same conclusion of the wing length results. 
 

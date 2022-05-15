@@ -8,7 +8,7 @@ In order for the data to be analyzed and produce meaningful data, it must be cle
 
 ## Statistics About Locations in the Data
 
-![average longitude and latitude](Visualozations/average_longlat.jpg)
+![average longitude and latitude](Visualizations/average_longlat.jpg)
  NEEDS A WRITE UP
 
 ![Boxplot for latitude](Visualizations/box_latitude.jpg)

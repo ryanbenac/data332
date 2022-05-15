@@ -68,7 +68,7 @@ P-value: 2.2e-16<br>
 Confidence Interval: [9.978191, 10.331461]<br>
 Mean of differences: 10.15482<br>
 
-The p-value of the wing length test, 2.2e-16 is less than the significance level alpha (0.05), which allows us to conclude that the right with legnth average is significantly different from the left wing length. The T-test for wing width shows an identical p-value which allows us to reach the same conclusion of the wing length results. 
+The p-value of the wing length test, 2.2e-16 is less than the significance level alpha (0.05), which allows us to conclude that the right with legnth average is not significantly different from the left wing length. The T-test for wing width shows an identical p-value which allows us to reach the same conclusion of the wing length results. 
 
 ## Summary
 This analysis focused primarily on wing proportions over time both by gender and as an entire sample population. The general trend of the data showed increase in wing length, width, and apex spot size over time. In doing this project, we ran into many issues and dealt with a variety of miscalculations and failures. During exploratory data analysis, we found many anomolies and outlierw that needed to be corrected ranging from sample size of a given year being to small to having inconsistent naming conventions for the sex of each sample. For future use, this analysis can be duplicated or continued with new data sets which will likely show a further increase in wing proportions over time. Further, better data collection methods should be put in place to allow better analysis of the provided data. 

@@ -56,8 +56,11 @@ class(df_complete$RWingWidth) = "double"
 
 # create working df
 df_working <- df_complete %>%
-  dplyr::select("coreid", "SexUpdated", "LWingLength", "LWingWidth", "RWingLength", "RWingWidth") %>%
+  dplyr::select("coreid", "YearUpdated","SexUpdated", "LWingLength", "LWingWidth", "RWingLength", "RWingWidth") %>%
   na.omit(df_complete) 
+
+# create wingspan column
+df_working$wingspan <- df_working$LWingWidth + df_working$RWingWidth
 
 ## get stats of proportions
 # left wing length
@@ -79,15 +82,55 @@ rWingWidMax <- max(df_working$RWingWidth)
 rWingWidAvg<- mean(df_working$RWingWidth)
 
 ## put all info in a table for easy viewing
-df_wingStats <- data.frame(LeftlWingLenMin, lWingLenAvg, lWingLenMax), c(lWingWidMin, lWingWidAvg, lWingWidMax), c(rWingLenMin, rWingLenAvg, rWingLenMax), c(rWingWidMin, rWingWidAvg, rWingWidMax))
-colnames(propTble) <- c('Min', 'Average', 'Max')
-rownames(propTble) <- c('Left Length', 'Left Width', 'Right Length', 'Right Width')
-propTble <- as.table(propTble)
-propTble
+df_wingStats <- data.frame(c(lWingLenMin, lWingLenAvg, lWingLenMax), c(lWingWidMin, lWingWidAvg, lWingWidMax), c(rWingLenMin, rWingLenAvg, rWingLenMax), c(rWingWidMin, rWingWidAvg, rWingWidMax))
+rownames(df_wingStats) <- c('Min', 'Average', 'Max')
+colnames(df_wingStats) <- c('Left Length', 'Left Width', 'Right Length', 'Right Width')
+df_wingStats
 
 
 ### visualizations ###
 # this analysis focuses only on wing proportions including wing length, width, and apex spot
+## histogram for wingspan
+wingspan <- df_working$wingspan
+hist(wingspan)
+
+## count over time
+# get df of average wingspan groupby year
+year_group <- df_working %>%
+  group_by(YearUpdated) %>%
+  summarise(AverageWing = mean(wingspan))
+
+# filter out year 200
+year_group <- filter(year_group, YearUpdated != 200)
+plot(year_group$YearUpdated,year_group$AverageWing,type = "l",col = "red", xlab = "Year", ylab = "Average", 
+     main = "Wingspan Over Time")
+
+## count over time by gender
+# get dfs by sex of average wingspan, year, and gender
+# male
+male <- filter(df_working, SexUpdated != 'female')
+
+year_group_male <- male %>%
+  group_by(YearUpdated) %>%
+  summarise(AverageWing = mean(wingspan), .groups = 'drop')
+year_group_male <- filter(year_group_male, YearUpdated != 200)
+plot(year_group_male$YearUpdated,year_group_male$AverageWing,type = "l",col = "blue", xlab = "Year", ylab = "Average", 
+     main = "Wingspan Over Time")
+
+# female
+female <- filter(df_working, SexUpdated != 'male')
+year_group_female <- female %>%
+  group_by(YearUpdated) %>%
+  summarise(AverageWing = mean(wingspan), .groups = 'drop')
+year_group_female <- filter(year_group_female, YearUpdated != 200)
+lines(year_group_female$YearUpdated,year_group_female$AverageWing,type = "l",col = "red", xlab = "Year", ylab = "Average", 
+     main = "Wingspan Over Time")
+
+## box plot of width by gender
+boxplot(LWingWidth~SexUpdated,data=df_working, main="Left Wing Width by Gender",
+        xlab="Gender", ylab="Wing Width")
+boxplot(RWingWidth~SexUpdated,data=df_working, main="Right Wing Width by Gender",
+        xlab="Gender", ylab="Wing Width")
 
 
 ### t-test ###
@@ -112,3 +155,4 @@ probs = c(.9, .95, .99)
 # show t-test results
 tsLen
 tsWid
+

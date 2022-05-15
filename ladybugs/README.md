@@ -1,6 +1,6 @@
 # Ladybug Data: Examining Geographical Location of Samples
 ## Introduction
-INTRODUCE DATASET
+The ladybug data sets contain information concerning observtions on several ladybug species. Aside from a unique ID, features for each sample include the date collected as well as geographical information such as longitude, latitude, country, and state (if available). This analysis focuses on examining both the geographical distribution of samples in the data set, as well analyzing species popultations over time. 
 
 ## Data Cleaning
 In order for the data to be analyzed and produce meaningful data, it must be cleaned to ensure consistency. The following data cleaning steps were taken on this data set: 

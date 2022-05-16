@@ -33,8 +33,7 @@ Below is a visual of the number count of genuses of ladybugs by decade from 1956
 
 ![genus count by decade](Visualizations/genus_count_decade.jpg)
 
-Looking at the line chart above, it can be seen that there was a significant increase in the number genuses during 2021 while there were merely a few number of genuses that were found from the '70s till 2018. Up until 1964, there were merely about 2 genuses of ladybugs that existed. This could have been due to the mass industrialization and on going war that had occurred with the US during and after the mid-19th century. Apart from that, it is unfathomable to explain why there were less number of genuses until 2021. 
-
+Looking at the line chart above, it can be seen that there was a significant increase in the number genuses during 2021 while there were merely a few number of genuses that were found from the '50s. This could have been due to the environmental aftermath of World War II. During the 1960s and 1970s, there were merely about 2 genuses of ladybugs that existed. This could have been due to the mass industrialization that had occurred in the US. Looking at a slight uprise around the 1980s, it is evident that the rise in environmental awareness in the US could have caused the impact. However, with the increasing pollution and environmental degradation that occurred after the 2000s, the number of genuses decreased significantly. Apart from that, it is unfathomable to explain the cause of their low count until the 2020s. 
 
 ## T-test
 

@@ -37,9 +37,7 @@ Looking at the line chart above, it can be seen that there was a significant inc
 
 ## T-test
 
+NEED A WRITE UP
 
-RESULTS NEED A WRITE UP
-## Summary
-CONCLUSIONS
-WHAT DID WE LEARN
-PROBLEMS FACED
+## Summary and Conclusion
+From this data, we can conclude that the samples collected and analyzed were taken from a limited geographical location. Further, the samples collected are more prevalent in recent decades as compared to older in time. From this data, we learned that there are a variety of ladybug genus located in the midwest, however the limited sample size may not be representative of the population for each genus not only in the midwest, but especially in other parts of the country or world where these species exist. An initial problem faced in this analysis was working with R and excel to create a map of where a genus is located. We also struggled to find a use for combining the datasets given, so ultimately we decided to analyze the genus in just one of the datasets. 

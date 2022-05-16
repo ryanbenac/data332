@@ -8,37 +8,24 @@ In order for the data to be analyzed and produce meaningful data, it must be cle
 
 ## Statistics About Locations in the Data
 
+What we see below is a representation of the average latitude as well as the average longitude of the different species of ladybug based on its scientific name.
 ![average longitude and latitude](Visualizations/average_longlat.jpg)
- NEEDS A WRITE UP
+Looking at this chart, it can be seen that the average longitude of most of the species are similar, excluding the decimal differences. From this, we can understand that a variety of species, that are categorized as ladybugs, are located at the northern part of the US. On the other hand, the average latitudes tell us that these species are most likely to be found on the east as well as the west side of the Midwest.      
 
+The boxplot below represents the latitudanal difference among the species.
 ![Boxplot for latitude](Visualizations/box_latitude.jpg)
+These species of ladybugs can be found at the lowest of 41.28138 degrees, the highest of 41.57974, and at the mid-point of 41.537828. The interquartile range of 0.073419 tells us that the dataset is less spread out. Although the data has one outlier of 40.506216, this signifies that the dataset is less spread out and that it has a reliable consistency for further study. It can also be seen that the boxplot is negatively skewed. This tells us that the data consists of high frequency of high value score.
 
-Based on the box plot above, we can conclude that: 
-1. Minimum: 41.28138
-2. Maximum: 41.57974
-3. Median: 41.537828
-4. Interquartile Range (41.56304-41.489621): 0.073419 --> is less spread out (makes it more reliable)
-5. Has one outlier of 40.506216
-6. Negatively skewed --> data consists of high frequency of high value score
-
-NEEDS A WRITE UP
-
+The boxplot below represents the latitudanal difference among the species.
 ![Boxplot for longitude](Visualizations/box_longitude.jpg)
-
-Based on the box plot above concerning longitude, we can conclude that: 
-1. Minimum: 90.414653
-2. Maximum: 90.73943
-3. Median: 90.552795
-4. Interquartile Range (90.63592-90.501557): 0.134363 --> is less spread out (makes it more reliable)
-5. Has one outlier of 41.56812
-6. Positively skewed --> data consists of high frequency of low value scores
-
+These species of ladybugs can be found at the nearest of 90.414653 degrees, the farthest of 90.73943, and at the mid-point of 90.552795. The interquartile range of 0.134363 tells us that the dataset is less spread out. Although the data has one outlier of 41.56812, this signifies that the dataset is less spread out and that it has a reliable consistency for further study. It can also be seen that the boxplot is positively skewed. This tells us that the data consists of high frequency of low value score.
+ 
 ## Visualizations and Analysis
 Include the map here
 
 ![genus count by decade](Visualizations/genus_count_decade.jpg)
 
-THIS NEEDS A WRITE UP
+Counts the number of genus by decades. 
 
 ## T-test
 

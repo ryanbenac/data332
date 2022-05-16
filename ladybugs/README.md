@@ -24,7 +24,7 @@ The boxplot below represents the longitudanal difference among the species.
 
 ![Boxplot for longitude](Visualizations/box_longitude.jpg)
 
-These species of ladybugs can be found at the nearest of 90.414653 degrees, the farthest of 90.73943, and at the mid-point of 90.552795. The interquartile range of 0.134363 tells us that the dataset is less spread out. Although the data has one outlier of 41.56812, this signifies that the dataset is less spread out and that it has a reliable consistency for further study. It can also be seen that the boxplot is positively skewed. This tells us that the data consists of high frequency of low value score.
+These species of ladybugs can be found at the nearest of 90.414653 degrees, the farthest of 90.73943, and at the mid-point of 90.552795. The interquartile range of 0.134363 tells us that the dataset is less spread out. Although the data has one outlier of 90.46392724, this signifies that the dataset is less spread out and that it has a reliable consistency for further study. It can also be seen that the boxplot is positively skewed. This tells us that the data consists of high frequency of low value score.
  
 ## Visualizations and Analysis
 Include the map here

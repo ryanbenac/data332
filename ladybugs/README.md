@@ -20,7 +20,7 @@ The boxplot below represents the latitudanal difference among the species.
 
 These species of ladybugs can be found at the lowest of 41.28138 degrees, the highest of 41.57974, and at the mid-point of 41.537828. The interquartile range of 0.073419 tells us that the dataset is less spread out. Although the data has one outlier of 40.506216, this signifies that the dataset is less spread out and that it has a reliable consistency for further study. It can also be seen that the boxplot is negatively skewed. This tells us that the data consists of high frequency of high value score.
 
-The boxplot below represents the latitudanal difference among the species.
+The boxplot below represents the longitudanal difference among the species.
 
 ![Boxplot for longitude](Visualizations/box_longitude.jpg)
 

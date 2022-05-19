@@ -37,7 +37,24 @@ Looking at the line chart above, it can be seen that there was a significant inc
 
 ## T-test
 
-NEED A WRITE UP
+Our T-test analysis was done in R to determine if there was a significant difference between the means of two groups. We performed a t-test on the Latitude and Longitude The results are below:
+
+Longitude and Latitude T-Test Results:
+
+T-stat: 402.73
+
+P-value: 2.2e-16
+
+Confidence Interval: [48.69228, 49.16997]
+
+Mean of Longitude: 90.43693
+
+Mean of Latitude: 41.50580
+
+Difference in Means: 48.93113
+
+
+The p-value of the longitude and latitude test, 2.2e-16 is less than the significance level alpha (0.05), which allows us to conclude that there is major difference with respect to where and what type of genus are located on the equator. 
 
 ## Summary and Conclusion
 From this data, we can conclude that the samples collected and analyzed were taken from a limited geographical location. Further, the samples collected are more prevalent in recent decades as compared to older in time. From this data, we learned that there are a variety of ladybug genus located in the midwest, however the limited sample size may not be representative of the population for each genus not only in the midwest, but especially in other parts of the country or world where these species exist. An initial problem faced in this analysis was working with R and excel to create a map of where a genus is located. We also struggled to find a use for combining the datasets given, so ultimately we decided to analyze the genus in just one of the datasets. 
